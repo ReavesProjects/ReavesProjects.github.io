@@ -1,158 +1,171 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Adoptable Cats</title>
 
-<link rel="shortcut icon" type="image/png" href="/favicon.png"/>
-<link rel="shortcut icon" type="image/png" href="http://example.com/favicon.png"/>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-<link rel="stylesheet" type="text/css" href="finnis.css">
+  <link href="finnis.css" rel="stylesheet" typw="text/css">
 
 </head>
 <body>
-	<header>
 
-		<div class="row">
-			<div class="logo">
-				<a href="index.html">
-				<img src="img/finnis-logo.png" alt="Finni's Cat Cafe & Human Meeting Place"></a>
-			</div>
-
-		<div class="main-nav" id="myMainnav">
-      <a href="contact.html">CONTACT</a>
-      <a href="finnis-menu.html">MENU</a>
-			<a href="adoptable-cats.html" class="active">ADOPT</a>
-      <a href="about.html">ABOUT</a>
-			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    		<i class="fa fa-bars"></i>
-		</a>
-	</div>
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="index.html"><strong>Finni's</strong></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="adoptable-cats.html">Adoptable Cats</a></li> 
+        <li><a href="about-us.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="contact.html">Contact</a></li> 
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="adoption-form.html"><span class="glyphicon glyphicon-user"></span> Adopt</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Donate</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
 </header>
-<div class="container">
+<div class="container1">
   <div class="row">
-    <div class="column">
-  <h2>FEATURED CAT</h2>
-      <img src="img/george-cluny.png" alt="George Cluny" width="400" height="500">
+    <div class="col-md-6">
+      <br>
+      <br>
+      <img src="img/george-cluny.png" alt="George Cluny" width="400" height="400" class="responsive-image">
     <br>
     <br>
   </div>
 
- <div class="row">
-    <div class="column">
+    <div class="col-md-6">
       <br>
-      <br>
-      <br>
+        <h2>FEATURED CAT</h2>
   <h3>GEORGE CLUNY</h3>
-  <h6>Eleven Year Old Male - American Short-Hair (Deaf)</h6>
-  <p>Yes, of course I named him. No other name could properly pay tribute to this dapper, grey-haired, gorgeous gentlman. George Cluny is a total love bug who likes to snuggle. He is very mellow so if you are looking for a playful kitty, he is not your man but he will keep your secrets and adore every moment together.<br>
+  <h6>Eleven Year Old Male - American Short-Hair</h6>
+  <p>Yes, I named him. No other name could properly pay tribute to this dapper, grey-haired, gentlman. George Cluny is a total love bug. He is very mellow so if you are looking for a playful kitty, he is not your man but he will keep your secrets and adore every moment together.<br>
   <br>
   While he appears to be a Scottish Fold, his ears have this appearance due to an ear infection that was not treated during his time as a stray. We believe him to be mostly if not completely deaf. He is also on a special diet and requires a bit more attention from the vet based on age. He is Neutured, up to date on all shots and microchipped.<br>
   <br>
-  <br>
     <div class="button">
-    <a href="adoptable-cats.html"><strong>ADOPT ME</strong></a>
+    <a href="adoption-form.html"><strong>ADOPT ME</strong></a>
     </div>
        </div>
 </div>
-<div class="container">
+</div>
+<br>
+<br>
+  <div id="box">
+    <img src="" id="pic2">
+    <p id="caption"></p>
+  </div>
 
+<div class="container">
 <div class="gallery">
-  <a target="_blank" href="img/felix.jpg">
+  <a target="pic2">
     <img src="img/felix.jpg" alt="Felix" width="600" height="300">
   </a>
   <div class="desc">FELIX (2Y, Neutered Male)</div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="img/gray-cat.jpg">
+  <a target="pic2">
     <img src="img/gray-cat.jpg" alt="Martin" width="600" height="300">
   </a>
   <div class="desc">MARTIN (7Y, Neutered Male)</div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="img/white-kitten-blue-eyes.jpg">
+  <a target="pic2">
     <img src="img/white-kitten-blue-eyes.jpg" alt="Esmerelda" width="600" height="300">
   </a>
   <div class="desc">ESMERELDA (7M., Neutered Female)</div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="img/sleeping-tabby.jpg">
+    <a target="pic2">
     <img src="img/sleeping-tabby.jpg" alt="Carlos" width="400" height="300">
   </a>
   <div class="desc">CARLOS (2Y, Neutered Male)</div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="img/white-cat.jpg">
+  <a target="pic2">
     <img src="img/white-cat.jpg" alt="Nathaniel" width="400" height="300">
   </a>
   <div class="desc">NATHANIEL (11Y, Neutered Male - Deaf)</div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="img/tabby-green-eyes.jpg">
+  <a target="pic2">
     <img src="img/tabby-green-eyes.jpg" alt="Jewels" width="400" height="300">
   </a>
   <div class="desc">JEWELS (4Y, Neutered Female)</div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="img/tabby-kitten.jpg">
+  <a target="pic2">
     <img src="img/tabby-kitten.jpg" alt="Horace" width="400" height="300">
   </a>
   <div class="desc">HORACE (3Y, Neutered Male)</div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="img/posey.png">
+  <a target="pic2">
     <img src="img/posey.png" alt="Posey" width="400" height="300">
   </a>
   <div class="desc">POSEY (5Y, Neutered Male)</div>
 </div>
 </div>
 </div>
+
 <br>
 <br>
 <br>
 <br>
 <div id="footer">
-
+<div class="container1">
 <div class="row">
-  <div class="column1">
+  <div class="col-sm-4">
     <p:first-child>
-    <h4>Visit Us:</h4>
-  <h6>505 Columbus Avenue<br />
+    <h4><strong>GET HERE</h4>
+  <h5>505 Columbus Avenue<br />
   New York, NY 10024<br />
   <strong>Tel:</strong>212.555.3201</br />
-  <strong>Email:</strong>info@finniscatcafe.com</br /></h6></p>
+  <strong>Email:</strong> <a href="mailto:sharon@reavesgallery.com" target="_top">info@finniscatcafe.com</a></br /></h5></p><br>
 </div>
 
-
-<div class="row">
-  <div class="column1">
-    <p:nth-child(2)>
-    <h4>Get Social:</h4>
-    <h6>Facebook</br>
-    Instagram</br>
-    Twitter</br>
-    Youtube</br /></h6></p>
-    </div>
-
-<div class="row">
-  <div class="column1">
+  <div class="col-sm-4">
     <p:last-child>
-    <h4>Hours:</h4>
-    <h6>Tuesday - Thursday 11am to 7pm<br />
+    <h4><strong>HOURS</h4>
+    <h5>Tuesday - Thursday 11am to 7pm<br />
     Friday - Saturday 12pm to 8pm<br />
     Sunday 12pm to 6pm<br />
-    Closed on Mondays</br /></h6></p>
+    Closed on Mondays</br /></h5></p><br>
     </div>
 
+  <div class="col-sm-4">
+    <p:nth-child(2)>
+    <h4><strong>BE SOCIAL</h4>
+    <h5>Facebook</br>
+    <a href="https://www.instagram.com/artpimpress/" target="_blank">Instagram</a></br>
+    <a href="https://twitter.com/artpimpress" target="_blank">Twitter</a></br>
+    <a href="https://www.youtube.com/watch?v=wH63Pw9CSyk" target="_blank">Youtube</a></br /></h5></p>
+    </div>
+</div>
 </div>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 

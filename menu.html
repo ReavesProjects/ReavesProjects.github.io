@@ -1,82 +1,147 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-<title>Menu</title>
+  <title>Menu</title>
 
-<link href="finnis.css" rel="stylesheet" typw="text/css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <link href="finnis.css" rel="stylesheet" typw="text/css">
 
 </head>
-
 <body>
-	<header>
 
-		<div class="row">
-			<div class="logo">
-				<a href="home.html">
-				<img src="Finni's logo v1.png" alt="Finni's Cat Cafe & Human Meeting Place"></a>
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="index.html"><strong>Finni's</strong></a>
     </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="adoptable-cats.html">Adoptable Cats</a></li> 
+        <li><a href="about-us.html">About</a></li>
+        <li class="active"><a href="menu.html">Menu</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="contact.html">Contact</a></li> 
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Donate</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-
-		<div class="main-nav" id="myMainnav">
-			<a href="Home.html">HOME</a>
-			<a href="About.html">ABOUT</a>
-			<a href="adoptable-cats.html">ADOPTABLE CATS</a>
-			<a href="Menu.html" class="active">MENU</a>
-			<a href="Contact.html">CONTACT</a>
-			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    		<i class="fa fa-bars"></i>
-		</a>
-	</div>
-	</header>
-
-<div class="banner2">
+<div class="banner3">
   <div class="hero-text">
-    <h1>MENU</h1>
-    <h3>Fall/Winter 2018</h3>
+    <h1><strong>MENU</h1>
+    <h2>Fall/Winter 2018</strong></h2>
     <br>
     <div class="button">
-    <a href="adoptable-cats.html"><strong>BOOK ON OPENTABLE</strong></a>
+    <a href="https://www.opentable.com/" target="_blank"><strong>BOOK NOW</strong></a>
 </div>
 </div>
 </div>
+  <br>
+  <br>
+<div class="container1">
+  <div class="row">
+    <div class="col-md-6">
+      
+    <ul><h3>SANDWICHES</h3>
+    <li>Avocado Toast    <strong>$8.95</strong></li>
+    <li>Vegan B, L&T Served on Rye with Vegan Mayo    <strong>$11.95</strong></li>
+    <li>Finni's Fav: Tuna Melt with Cheddar on Rye    <strong>$8.95</strong></li>
+    <li>Granny Smith Apples, Cheddar and Arugula on Pumpernickle    <strong>$8.95</strong></li>
+    <h3>SALAD</h3>
+    <li>Heirloom Tomato & Avocado on Arugula with Balsamic    <strong>$8.95</strong></li>
+    <li>Peach, Pecan & Shaved Parmesan on Spinach with Balsamic     <strong>$8.95</strong></li>
+    <li>Finni's Kale Cobb with Vegan Bacon & Cheese    <strong>$8.95</strong></li>
+    <h3>SOUP</h3>
+    <li>Three Bean Chili with Corn Bread    <strong>$8.95</strong></li>
+    <li>Soup of the Day: Tomoto Basil    <strong>$8.95</strong></li>
+    <h3>NIBBLES</h3>
+    <li>Hummus with Warm Pita and Black Olives    <strong>$8.95</strong></li>
+    <li>Grilled Brussel Sprouts    <strong>$4.95</strong></li>
+    <li>Chickpea Fries with Aioli   <strong>$6.95</strong></li>
+    </ul>
+     </div>
+    
+    <div class="col-md-6">
+       <ul><h3>BEVERAGES</h3>
+      <li>CATpuccino    <strong>$4.95</strong></li>
+      <li>Traditional Latte    <strong>$4.95</strong></li>
+      <li>Turmeric Latte<strong>$4.95</strong></li>
+      <li>Peet's Organic Free Trade Coffee    <strong>$2.95</strong></li>
+      <li>Cold Press Coffee    <strong>$2.95</strong></li>
+      <li>Hot Tea: Green, Black or Herbal    <strong>$1.95</strong></li>
+      <li>Iced Tea<strong>$1.95</strong></li>
+      <li>Organic Juices: Apple, Orange, Carrot Ginger    <strong>$4.95</strong></li>
+      <li>Sparkling Water<strong>$2.95</strong></li>
+      <br>
+      <li><em>Choice of Soy, Coconut or Almond Milk</em></li>
+      <h3>WINE</h3>
+      <li><strong>Red:</strong> Pinot Noir, Merlot, Zinfindel    <strong>$8.95</strong></li>
+      <li><strong>White:</strong> Sauvingnon Blanc, Pinot Grigio, Chardonnay    <strong>$6</strong></li>
+      <li><strong>Rose:</strong> Pinot G, Flour deLu    <strong>$8.95</strong></li>
+      <li><strong>Sparkling:</strong> J Brand    <strong>$6</strong></li>
+      <h3>BOTTLED BEER</h3>
+      <li>Brooklyn Lager, Voodoo IPA, Dos Equis, Mother's Milk Stout   <strong>$8.95</strong></li>
+      </ul>
+       <br>
+       <br>
+        <br>
+        <br>
+    </div>
+  </div>
+</div>
 
-<div class="container">
-	<div class="row">
-		<div class="column">
- 	<h5>ABOUT SHARON</h5><h6>Owner. Founder. Design Geek.</h6>	
- 	<p>
-	My friends used to joke that I started companies as an excuse to design new websites. Perhaps it was true as one of the happiest memories from my time as a gallery owner was waking up at 3am with an idea for a new exhibit. I'd rush to grab my laptop and draft out concepts on my website to see how works of art looked together.<br>
-	<br>
-	I'm the person you mention in passing that you have an idea and the next morning I suprise you with a new site. God help my dentist or any site I might visit as I insist I can do it better. This is when I knew - perhaps I always knew - it was content and not art that I was meant to curate.
-		</p>
-		<a href="http://kindaesthetic.com/blog/2015/10/27/delve-interview-sharon-reaves">Read Interview in Delve</a>
-		<br>
-		<br>
-	</div>
+<div id="footer">
+<div class="container1">
+<div class="row">
+  <div class="col-sm-4">
+    <p:first-child>
+    <h4><strong>GET HERE</h4>
+  <h5>505 Columbus Avenue<br />
+  New York, NY 10024<br />
+  <strong>Tel:</strong> 212.555.3201</br />
+  <strong>Email:</strong> <a href="mailto:sharon@reavesgallery.com" target="_top">info@finniscatcafe.com</a></br /></h5></p><br>
+</div>
 
- <div class="row">
- 		<div class="column">
- 	<h5>ABOUT REAVES PROJECTS</h5>
- 	<p>
-		Reaves Projects designs websites with a clean aesthetic that are easy and affordable to maintain. We work with a variety of existing CMS tools such as Square Space, Wix, Weebly, Tumblr and WordPress. We take your product and intended audience into consideration and develop a brand that generates maximum engagement.<br>
-		<br>
-		Our national client list includes art galleries, authors, bloggers, lawyers,, architects, individuals, online retailers, painters, personal organizers, photographers, poets and even a jump rope team. Let us add you to the list.
-		</p>
-		   </div>
+  <div class="col-sm-4">
+    <p:last-child>
+    <h4><strong>HOURS</h4>
+    <h5>Tuesday - Thursday 11am to 7pm<br />
+    Friday - Saturday 12pm to 8pm<br />
+    Sunday 12pm to 6pm<br />
+    Closed on Mondays</br /></h5></p><br>
+    </div>
 
-<br>
-<br>
+  <div class="col-sm-4">
+    <p:nth-child(2)>
+    <h4><strong>BE SOCIAL</h4>
+    <h5>Facebook</br>
+    <a href="https://www.instagram.com/artpimpress/" target="_blank">Instagram</a></br>
+    <a href="https://twitter.com/artpimpress" target="_blank">Twitter</a></br>
+    <a href="https://www.youtube.com/watch?v=wH63Pw9CSyk" target="_blank">Youtube</a></br /></h5></p>
+    </div>
 
-<div class="footer"><br>
-  <center>© 2018 Finni's | Cat Cafe & Human Meeting Place | 151 W 82nd St (between Amsterdam & Columbus, New York | Contact: <a href="mailto:sharon@reavesprojects.com">info@finnis.com</a><center>
   <br>
   <br>
 </div>
+</div>
+
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
 <script type="text/javascript" src="finnis-project.js"></script>
-
 
 </body>
 </html>
