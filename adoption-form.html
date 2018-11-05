@@ -44,10 +44,63 @@
     </div>
   </div>
 </nav>
-		<div class="adopt-form">
-<form id="rendered-form"><div class="rendered-form"><div class=""><h2 id="control-8798232">Adoption Survey</h2></div><div class="fb-text form-group field-text-1540766138355"><label for="text-1540766138355" class="fb-text-label">Name<span class="fb-required">*</span></label><input type="text" class="form-control" name="text-1540766138355" id="text-1540766138355" required="required" aria-required="true"></div><div class="fb-text form-group field-text-1540766134728"><label for="text-1540766134728" class="fb-text-label">Email<span class="fb-required">*</span></label><input type="text" class="form-control" name="text-1540766134728" id="text-1540766134728" required="required" aria-required="true"></div><div class="fb-text form-group field-text-1540766143613"><label for="text-1540766143613" class="fb-text-label">Phone<span class="fb-required">*</span></label><input type="text" class="form-control" name="text-1540766143613" id="text-1540766143613" required="required" aria-required="true"></div><br><br><div class="fb-checkbox-group form-group field-checkbox-group-1540766119863"><label for="checkbox-group-1540766119863" class="fb-checkbox-group-label">I Am Interested In Adopting</label><div class="checkbox-group"><div class="checkbox"><input name="checkbox-group-1540766119863[]" id="checkbox-group-1540766119863-0" value="option-1" type="checkbox" checked="checked"><label for="checkbox-group-1540766119863-0">George Cluny</label></div><div class="checkbox"><input name="checkbox-group-1540766119863[]" id="checkbox-group-1540766119863-1" type="checkbox" checked="checked"><label for="checkbox-group-1540766119863-1">Felix</label></div><div class="checkbox"><input name="checkbox-group-1540766119863[]" id="checkbox-group-1540766119863-2" type="checkbox" checked="checked"><label for="checkbox-group-1540766119863-2">Martin</label></div><div class="checkbox"><input name="checkbox-group-1540766119863[]" id="checkbox-group-1540766119863-3" type="checkbox" checked="checked"><label for="checkbox-group-1540766119863-3">Esmerelda</label></div><div class="checkbox"><input name="checkbox-group-1540766119863[]" id="checkbox-group-1540766119863-4" type="checkbox" checked="checked"><label for="checkbox-group-1540766119863-4">Carlos</label></div><div class="checkbox"><input name="checkbox-group-1540766119863[]" id="checkbox-group-1540766119863-5" type="checkbox" checked="checked"><label for="checkbox-group-1540766119863-5">Nathaniel</label></div><div class="checkbox"><input name="checkbox-group-1540766119863[]" id="checkbox-group-1540766119863-6" type="checkbox" checked="checked"><label for="checkbox-group-1540766119863-6">Jewels</label></div><div class="checkbox"><input name="checkbox-group-1540766119863[]" id="checkbox-group-1540766119863-7" type="checkbox" checked="checked"><label for="checkbox-group-1540766119863-7">Horace</label></div><div class="checkbox"><input name="checkbox-group-1540766119863[]" id="checkbox-group-1540766119863-8" type="checkbox" checked="checked"><label for="checkbox-group-1540766119863-8">Posey</label></div><div class="checkbox"><input name="checkbox-group-1540766119863[]" id="checkbox-group-1540766119863-other" class="undefined other-option" value="" type="checkbox"><label for="checkbox-group-1540766119863-other">Other<input type="text" id="checkbox-group-1540766119863-other-value" class="other-val"></label></div></div></div><br><br><div class="fb-file form-group field-file-1540766388989"><label for="file-1540766388989" class="fb-file-label">Upload Completed Application</label><input type="file" class="form-control" name="file-1540766388989" id="file-1540766388989"></div><div class="fb-button form-group field-button-1540766350263"><button type="button" class="btn btn-danger" name="button-1540766350263" style="danger" id="button-1540766350263">Submit</button></div></div></form>
-</div>
 
+<div class="container2">
+  <form action="action_page.php" target="_self">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="cat">I'm Interested In Adopting</label>
+    <select id="cat" name="cat">
+      <option value="george-cluny">George Cluny</option>
+      <option value="felix">Felix</option>
+      <option value="martin">Martin</option>
+      <option value="esmerelda">Esmerelda</option>
+      <option value="carlos">Carlos</option>
+      <option value="petunia">Petunia</option>
+      <option value="jewels">Jewels</option>
+      <option value="abigail">Abigail</option>
+      <option value="elmo">Elmo</option>
+      <option value="charlie">Charlie</option>
+      <option value="posey">Posey</option>
+      <option value="other">Other</option>
+    </select>
+
+    <label for="age">I am over 18 AND a NY resident</label>
+    <select id="age" name="age">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
+
+    <label for="housing">My apt/home allows pets</label>
+    <select id="housing" name="housing">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
+
+    <label for="exp">I have past experience with cats</label>
+    <select id="exp" name="exp">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
+
+    <label for="vet">I understand that I am making a long-term commitment to a living being and that I will be responsible for proper care and feeding for the life of my vet.</label>
+    <select id="vet" name="vet">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Anything else you'd like to add..." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
 
 <div id="footer">
 <div class="container1">
